@@ -1,0 +1,65 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/game3.css">
+    <script src="../js/game3.js"></script>
+    <title> Game 3 </title>
+    </head>
+    <body bgcolor="sandybrown">
+        <div id="menu1">
+            <ul>
+                <li><a href="../index.html">MAIN</a></li>
+                <li><a href="../Spring.html">SPRING</a></li>
+                <li><a href="../Summer.html">SUMMER</a></li>
+                <li><a href="../Autumn.html">AUTUMN</a></li>
+                <li><a href="../Winter.html">WINTER</a></li>
+                <li><a href="../Game.html">GAME</a></li>
+            </ul>
+        </div>
+        <center>
+            <br><br><br><br><br><br><br><br>
+            <img src="../image/icon/game3.png" width=200 height=250>
+            <br>
+            <TABLE width="700" height=180 border="0" cellspacing="2" cellpadding="2">
+                <TR>
+                    <TD align="center" valign="middle" height="40" bgcolor="orangered">
+                        <div class="engfont">
+                        ** EXPLANATION **
+                        </div>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD bgcolor="white">
+                    <form style="text-align: right;">
+                        <select name="language" onchange='Choice(this.value)'>
+                            <option value="1">한국어</option>
+                            <option value="2">영어</option>
+                        </select>
+                    </form>
+                        <div style='display:block' id='div1' class="korfont2">
+                            &nbsp;&nbsp;1. GO 버튼을 눌러 랜덤 뽑기를 해보세요.
+                            <BR>
+                            &nbsp;&nbsp;2. 약 1~2초 뒤 결과가 나옵니다.
+                            <BR>
+                            &nbsp;&nbsp;3. 다시 하고 싶다면 RESET 버튼을 눌러주세요.
+                            <BR><BR>
+                        </div>
+                        <div style='display:none' id='div2' class="engfont2">
+                            &nbsp;&nbsp;1. Press the GO button to randomize.
+                            <BR>
+                            &nbsp;&nbsp;2. The result will be in about a second or two.
+                            <BR>
+                            &nbsp;&nbsp;3. Do it again reset by pressing the button.
+                            <BR><BR>
+                        </div>
+                    </TD>
+                </TR>
+            </TABLE>
+            <br>
+                <button class= button1 type= button onclick="ramdom()">GO</button>
+                <button class= button1 type=button onclick="window.location.reload()">RESET</button>
+        </center>
+    </body>
+</html>

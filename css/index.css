@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background: rgba(223, 242, 245, 0.952);
+}
+
+
+/* Make the image fully responsive */
+div 
+{ 
+  text-align: center;
+}
+
+.carousel-inner img 
+{
+    width: 60%;
+    height: 100%;
+}
+
+.img .content
+{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);                                                                   
+font-size:5rem;
+color: rgb(43, 14, 43);
+z-index: 2;
+text-align: center;
+font-family: 'Lobster', cursive;
+}

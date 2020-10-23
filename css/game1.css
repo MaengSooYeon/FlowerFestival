@@ -1,0 +1,99 @@
+*
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+a 
+    {
+        text-decoration: none;
+        color: #404040;
+    }
+
+li 
+    {
+        list-style: none;
+    }
+
+#menu
+    {
+        width: 100%;
+        background: #98E0AD;
+    }
+
+#menu1 ul
+    {
+        width: 100%;
+        margin: 0 auto;
+        outline: hidden;
+    }    
+    
+#menu1 ul li 
+    {
+        float: left;
+        width: 16.65%;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        background: rgb(255, 255, 255);
+    }    
+
+#menu1 ul li a
+    {
+        display: block;
+    }    
+
+#menu1 ul li a:hover 
+    {
+        background: #e1e43656;
+        color: rgb(255, 255, 255);
+    }    
+
+.button
+    {
+      background-color: rgb(214, 214, 180);
+      border: none;
+      color: white;
+      padding: 12px 50px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+.button:hover
+    {
+      background-color: rgb(221, 215, 137);
+      color: white;
+    }
+
+.engfont
+    {
+        font-family: 'Staatliches', cursive;
+        color: rgb(63, 61, 61);
+        font-size: 28px;
+    }
+
+.korfont2
+    {
+        font-family: 'Noto Sans KR', sans-serif;
+        color: rgb(63, 61, 61);
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+.engfont2
+    {
+        font-family: 'Staatliches', cursive;
+        color: rgb(63, 61, 61);
+        font-size: 24px;
+    }
+select
+    {
+        font-family: 'Noto Sans KR', sans-serif;
+        color: cornsilk;
+        background-color: rgba(165, 42, 42, 0.589);
+    }
+ 

@@ -1,0 +1,71 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/game1.css">
+    <script src="../js/game1.js"></script>
+    <title> Game 1 </title>
+    </head>
+    <body bgcolor="ghostwhite">
+        <div id="menu1">
+            <ul>
+                <li><a href="../index.html">MAIN</a></li>
+                <li><a href="../Spring.html">SPRING</a></li>
+                <li><a href="../Summer.html">SUMMER</a></li>
+                <li><a href="../Autumn.html">AUTUMN</a></li>
+                <li><a href="../Winter.html">WINTER</a></li>
+                <li><a href="../Game.html">GAME</a></li>
+            </ul>
+        </div>
+        <center>
+            <form name=recommendform>
+                <table class="back">
+                <tr align=center class=fore>
+                    <td><img name=recommend src="../image/SpringFestival1.png"></td>
+                </tr>
+                <br><br><br><br><br>
+                <tr>
+                    <td align=center><input class="button" type=button name=recommendbutton value="Choice" onclick="Recommend();">
+                    <input class="button" type=button name=recommendbutton value="Reset" onclick="first();">
+                    </td>
+                </tr>
+                </table>
+            </form>  
+            <br>
+                <TABLE width="700" height=180 border="0" cellspacing="2" cellpadding="2">
+                    <TR>
+                        <TD align="center" valign="middle" height="40" bgcolor="tan">
+                            <div class="engfont">
+                            ** EXPLANATION **
+                            </div>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD bgcolor="ivory">
+                        <form style="text-align: right;">
+                            <select name="language" onchange='Choice(this.value)'>
+                                <option value="1">한국어</option>
+                                <option value="2">영어</option>
+                            </select>
+                        </form>
+                            <div style='display:block' id='div1' class="korfont2">
+                                &nbsp;&nbsp;1. Choice 버튼을 누르면 사용자에게 랜덤으로 축제를 추천합니다.
+                                <BR>
+                                &nbsp;&nbsp;2. 결과 출력은 30초 정도의 시간이 소요됩니다.
+                                <BR>
+                                &nbsp;&nbsp;3. 다시 하고 싶다면 초기화 버튼을 누르세요.
+                            </div>
+                            <div style='display:none' id='div2' class="engfont2">
+                                &nbsp;&nbsp;1. Press the Choice button to randomly recommend the festival to the user.
+                                <BR>
+                                &nbsp;&nbsp;2. The resulting output is about 30 seconds of time.
+                                <BR>
+                                &nbsp;&nbsp;3. Press the reset button if you want to do it again.
+                            </div>
+                        </TD>
+                    </TR>
+                </TABLE>
+        </center>
+    </body>
+</html>
