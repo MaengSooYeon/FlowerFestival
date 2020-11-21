@@ -1,7 +1,7 @@
 <h1>FlowerFestival</h1>  
 
 <h2>MAIN</h2>  
-2019년 1학년 2학기 HTML 과목에서 수행평가로 제작 & 발표했었던 <b>Flower Festival Project</b>입니다.  
+2019년 1학년 2학기 HTML 과목에서 수행평가로 제작 & 발표했었던 <b>Flower Festival Project</b> 입니다.  
   
 <h2>Information</h2>  
 
